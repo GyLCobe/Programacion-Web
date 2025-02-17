@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+    <i></i>
+</head>
+<body>
+    <header>
+        <h1>
+                Programación WEB (2025A)
+        </h1>
+        <h2>By: Corona Benitez Gilberto </h2>
+        <NAv>
+            <hr> <li>
+                <strong>
+                    HOME DE ACTIVIDADES
+                </strong>
+                  </li>
+                        <li>
+                            <a href="https://github.com/GyLCobe/Programacion-Web" target="_blank">Mi Repositorio </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="https://filemanager.ai/new/#/c/185.27.134.11/if0_38202884/eyJ0IjoiZnRwIiwiYyI6eyJwIjoieUpIM2VyY1ZMWXNNN24iLCJpIjoiXC8ifX0=" target="_blank">Servidor_free</a>
+                        </li>
+                        <br>
+        </NAv>
+    </header>
+    <main>
+        <lu>
+            <strong><h1>Hyper Text Markup Language</h1></strong>
+        </lu>
+           <hr>  
+           <nav>
+            <ul>
+                <li>
+                   <strong>MENU OF THE BORING COMPANY</strong> 
+                   
+                </li>
+                <br>
+                <li>
+                    <a href="https://www.figma.com/design/7jgjsSt1GLPL0DxHP2g8oW/Programacion-Web?node-id=2-6&t=wUEupmr067CZwUaV-0" target="_blank"><strong>Actividad #4 MENU</strong> </a>
+                </li>
+            </ul>
+           </nav>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
