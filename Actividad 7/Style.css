@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+span {
+    font-size: 14px;
+    color: rgb(102, 4, 4);
+}
+
+h1 {
+    color: #0a0a0a;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    font-size: 12px;
+    color: rgb(8, 8, 8);
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 15px;
+}
