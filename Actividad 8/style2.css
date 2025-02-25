@@ -1,0 +1,78 @@
+.house {
+    background-color: papayawhip;
+    width: 200px;
+    height: 150px;
+    margin: 200px auto 0 auto; 
+    position: relative; 
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-radius: 0;
+    position: absolute;
+    background-color: transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid orange;
+    top: -100px; 
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pared {
+    width: 200px;
+    height: 150px;
+    background-color: papayawhip;
+}
+
+.piso {
+    width: 200px;
+    height: 6px; 
+    background-color: green;
+    margin: 0 auto;
+}
+
+.ventana1, .ventana2 {
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.ventana1 {
+    top: 40px;
+    left: 40px;
+}
+
+.ventana2 {
+    top: 40px;
+    right: 40px;
+}
+.chimenea {
+    width: 30px;
+    height: 49px;
+    background-color: crimson;
+    position: absolute;
+    top: -65px;
+    left: 45px;
+}
+.fachada {
+    width: 200px;
+    height: 29px;
+    background-color: rgb(174, 171, 171);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.puerta {
+    width: 30px;
+    height: 51px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    border-radius: 7px 7px 2px 2px;
+}
