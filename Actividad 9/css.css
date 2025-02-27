@@ -1,0 +1,99 @@
+
+td {
+    position: relative;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.titulo {
+    width: calc(60px * 19.75);
+    text-align: center;
+}
+
+.espacioV{
+    border: none;
+    width: 30px;
+}
+
+.espacioH{
+    height: 30px;
+}
+
+.noborder {
+    border: none;
+}
+
+td:hover {
+    transform: scale(1.2);
+    z-index: 100;
+}
+
+td .numero {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+td .elemento {
+    font-size: 12px;
+}
+
+.verde1{
+    background-color: rgb(110, 194, 110);
+}
+
+.verde2{
+    background-color: rgb(39, 111, 39);
+}
+
+.rosado{
+    background-color: rgb(245, 218, 223);
+}
+
+.red{
+    background-color: red;;
+}
+.yellow{
+    background-color: rgb(221, 221, 117);
+}
+.yellow2{
+    background-color: rgb(238, 238, 139);
+}
+.blue{
+    background-color: rgba(95, 122, 180, 0.812);
+}
+.blue2{
+    background-color: blue;
+}
+.purple{
+    background-color: purple;
+}
+.gray{
+    background-color: rgb(168, 168, 168);
+}
+
+
+
+td .cuadro{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.tleyenda {
+    width: calc(60px * 15);
+    text-align: left;
+    margin-left: 150px;
+}
+
+.leyenda {
+    border: none;
+}
+
+.leyendaDesc {
+    border: none;
+    text-align: left;
+}
