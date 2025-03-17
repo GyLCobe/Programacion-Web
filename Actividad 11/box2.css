@@ -1,0 +1,54 @@
+.container{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;   
+    outline: 4px solid; 
+    display: grid; 
+   grid-template-columns: repeat(16,1fr);
+   grid-template-rows: repeat(8,1fr);
+   gap: 5px;
+   padding: 5px;
+   background-color: white;
+
+}
+.box{
+    text-align: center;
+    color: #fff;
+}
+.orange{
+    grid-area: header;
+    background-color: #ee4d03e5;
+    grid-column: 1/7;
+    grid-row: 1/11;
+}
+.purple{
+    background-color: rgb(202, 53, 202);
+    grid-column: 7/15;
+    grid-row: 1/4;
+}
+.green{
+    background-color: rgba(33, 179, 33, 0.918);
+    grid-column: 7/10;
+    grid-row: 4/7;
+}
+.blue{
+    background-color: aqua;
+    grid-column: 10/15;
+    grid-row: 4/5;
+}
+.purple2{
+    background-color: rgb(221, 107, 221);
+    grid-column: 10/15;
+    grid-row: 5/7;
+}
+.orange2{
+    background-color: rgb(243, 171, 38);
+    grid-column: 7/15;
+    grid-row: 7/11;
+}
+.green2{
+    background-color: rgba(33, 179, 33, 0.918);
+    grid-column: 15/17;
+    grid-row: 1/11;
+}
+
