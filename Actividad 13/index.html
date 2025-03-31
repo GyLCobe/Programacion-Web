@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    <hr>
+
+    <form action="calcular.php" method="POST">
+        <h2>Ingresa los números que deseas calcular</h2>
+        
+        <label for="num1">Primer número:</label>
+        <input type="number" name="num1" id="num1" required>
+        <hr>
+
+        <label for="num2">Segundo número:</label>
+        <input type="number" name="num2" id="num2" required>
+        <hr>
+
+        <h3>Selecciona la operación:</h3>
+        <input type="radio" name="operacion" id="suma" value="suma" required> 
+        <label for="suma">Suma (+)</label>
+        
+        <input type="radio" name="operacion" id="resta" value="resta"> 
+        <label for="resta">Resta (-)</label>
+        
+        <input type="radio" name="operacion" id="multiplicacion" value="multiplicacion"> 
+        <label for="multiplicacion">Multiplicación (×)</label>
+        
+        <input type="radio" name="operacion" id="division" value="division"> 
+        <label for="division">División (÷)</label>
+        <hr>
+
+        <input type="submit" name="calcular" value="Calcular">
+        <button type="reset">Reiniciar operación</button>
+    </form>
+</body>
+</html>
